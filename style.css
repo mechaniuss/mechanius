@@ -55,6 +55,20 @@ html, body {
     width: 50px;
 }
 
+.second-section .arrow {
+    bottom: 40px;
+    display: block;
+    height: 50px;
+    left: 50%;
+    margin-left: -25px;
+    position: absolute;
+    width: 50px;
+}
+
+.first-section, .second-section {
+    position: relative;
+}
+
 .first-section div p a, .second-section .arrow a {
     border: 2px solid white;
     padding: 0 10px 0 10px;
@@ -244,6 +258,10 @@ nav {
     
     .stap-title {
         font-size: 48px !important;
+    }
+    
+    .second-section .arrow {
+        bottom: 0;
     }
 }
 
