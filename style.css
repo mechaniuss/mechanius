@@ -21,6 +21,10 @@ html, body {
     min-height: 100vh;
 }
 
+.custom-bottom {
+    bottom: 59px !important;
+}
+
 .background-bar {
     background-image: url(bar.jpg);
     -webkit-background-size: cover;
@@ -167,13 +171,13 @@ html, body {
     background-color: #232323;
 }
 
-.p-video {
+/*.p-video {
     padding: 8vh;
 }
 
 .embed-responsive {
     border-radius: 5px;
-}
+}*/
 /*
 .bg-special {
     color: white;
@@ -206,7 +210,6 @@ nav {
 }
 
 .bg-special {
-    /*color: white;*/
     font-family: Clear Sans;
     background-color: white;
 }
@@ -265,6 +268,12 @@ nav {
     }
 }
 
+@media screen and (max-width: 768px) {
+    .custom-bottom {
+        bottom: 0 !important;
+    }
+}
+
 @media screen and (max-width: 450px) {
     .first-section div h1 {
         font-size: 50px;
@@ -307,7 +316,7 @@ nav {
     }
 }
 
-@media screen and (max-width: 319px) and (max-height: 567px) {
+/*@media screen and (max-width: 319px) and (max-height: 567px) {
     .embed-responsive-16by9::before{ 
         padding-top: 100% !important;
     }
@@ -333,4 +342,4 @@ nav {
     .p-video {
         padding: 1.6vh;
     }
-}
+}*/
