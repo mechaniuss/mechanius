@@ -21,8 +21,8 @@ html, body {
     min-height: 100vh;
 }
 
-.custom-bottom {
-    bottom: 59px !important;
+.bg-grad {
+    background-image: linear-gradient(to left bottom, #20264c, #263267, #293f82, #294da0, #255bbe);
 }
 
 .background-bar {
@@ -60,13 +60,17 @@ html, body {
 }
 
 .second-section .arrow {
-    bottom: 40px;
+    bottom: 60px;
     display: block;
     height: 50px;
     left: 50%;
     margin-left: -25px;
     position: absolute;
     width: 50px;
+}
+
+.custom-bottom {
+    bottom: 90px !important;
 }
 
 .first-section, .second-section {
@@ -250,7 +254,7 @@ nav {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .first-section div h1 {
         font-size: 72px;
     }
@@ -266,11 +270,23 @@ nav {
     .second-section .arrow {
         bottom: 0;
     }
+    
+    .custom-bottom {
+        bottom: 35px !important;
+    }
 }
 
-@media screen and (max-width: 768px) {
-    .custom-bottom {
-        bottom: 0 !important;
+@media screen and (max-width: 812px) and (max-height: 414px) {
+    .stap-title {
+        font-size: 36px !important;
+    }
+    
+    .stap-text {
+        font-size: 14.2px !important;
+    }
+    
+    .custom-bottom-2 {
+        bottom: 35px !important
     }
 }
 
