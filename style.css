@@ -244,6 +244,14 @@ nav {
     font-size: 72px !important;
 }
 
+@media screen and (max-width: 991px) {
+    .dropdown-menu {
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+    }
+} 
+
 @media screen and (max-width: 823px) {
     .second-section p {
         font-size: 16px;
