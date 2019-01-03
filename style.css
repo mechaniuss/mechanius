@@ -57,27 +57,13 @@ html, body {
 }
 
 .first-section .arrow {
-    bottom: 0;
+    bottom: 35px;
     display: block;
     height: 50px;
     left: 50%;
     margin-left: -25px;
     position: absolute;
     width: 50px;
-}
-
-.second-section .arrow {
-    bottom: 60px;
-    display: block;
-    height: 50px;
-    left: 50%;
-    margin-left: -25px;
-    position: absolute;
-    width: 50px;
-}
-
-.custom-bottom {
-    bottom: 90px !important;
 }
 
 .first-section, .second-section {
