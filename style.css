@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:800&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700,800&subset=cyrillic');
 
 img {
     user-select: none;
@@ -39,8 +39,15 @@ html, body {
     background-attachment: fixed;
 }
 
+.card-special {
+    background-color: #5b5b5b;
+    border-radius: 5px;
+    border: 3px solid #4f4f4f;
+}
+
 .first-section div h1 {
     font: 92px Montserrat;
+    font-weight: 800;
     color: white;
 }
 
@@ -110,7 +117,7 @@ html, body {
     min-height: 50vh;
 }
 
-.second-section h2, .bg-special h1 {
+.second-section h3, .bg-special h1 {
     font-family: Montserrat;
 }
 
@@ -152,19 +159,20 @@ html, body {
 }
 
 .second-section .first_cat {
-    font-size: 21px;
+    font-size: 18px;
+    font-family: Clear Sans;
     font-weight: bold;
     color: white;
-    background-color: #c93838;
-    border-radius: 3px;
+    background-color: #43a848;
+    border-radius: 10px;
     transition: 400ms;
     cursor: pointer;
     text-align: center;
-    border: 3px solid #b73333;
+    border: 3px solid #3c9640;
 }
 
 .second-section .first_cat:hover {
-    background-color: #b73333;
+    background-color: #3c9640;
 }
 
 .second-section .first_cat:hover {
