@@ -22,12 +22,7 @@ html, body {
 }
 
 .bg-grad {
-    /*background: #4b6cb7;  
-    background: -webkit-linear-gradient(to left, #182848, #4b6cb7); 
-    background: linear-gradient(to left, #182848, #4b6cb7);*/
-    background: #e65c00;
-    background: -webkit-linear-gradient(to left, #F9D423, #e65c00); 
-    background: linear-gradient(to left, #F9D423, #e65c00);
+    background-image: linear-gradient(to left bottom, #20264c, #263267, #293f82, #294da0, #255bbe);
 }
 
 .background-bar {
@@ -38,7 +33,7 @@ html, body {
 }
 
 .background {
-    background-image: url(bar.jpg);
+    background-image: url(bg-main-3.jpg);
     -webkit-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
@@ -113,9 +108,30 @@ html, body {
 }
 
 .auto-background-dark {
-    background-image: -webkit-linear-gradient(bottom left, #232323, #282828, #2c2c2c, #313131, #363636);
-    background-image: -o-linear-gradient(bottom left, #232323, #282828, #2c2c2c, #313131, #363636);
-    background-image: linear-gradient(to top right, #232323, #282828, #2c2c2c, #313131, #363636);
+    background: linear-gradient(270deg, #212121, #494949, #212121);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 59s ease infinite;
+    -moz-animation: AnimationName 59s ease infinite;
+    animation: AnimationName 59s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 
 .second-section h1 {
@@ -133,18 +149,20 @@ html, body {
     font-family: Clear Sans;
     font-weight: bold;
     color: white;
-    /*background-color: #43a848;*/
-    background-color: #EFA407;
+    background-color: #43a848;
     border-radius: 10px;
     transition: 400ms;
     cursor: pointer;
     text-align: center;
-    border: 3px solid #d39004;
+    border: 3px solid #3c9640;
 }
 
 .second-section .first_cat:hover {
-    background-color: #d39004;
-    text-decoration: none;
+    background-color: #3c9640;
+}
+
+.second-section .first_cat:hover {
+    text-decoration: none !important;
 }
 
 .second-section-additional {
@@ -219,6 +237,10 @@ nav {
 .stap-title {
     font-size: 72px !important;
 }
+
+/*.custom-bottom-2 {
+    bottom: 110px !important;
+}*/
 
 @media screen and (max-width: 991px) {
     .dropdown-menu {
