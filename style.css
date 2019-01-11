@@ -74,7 +74,7 @@ html, body {
 }*/
 
 .position {
-    bottom: 70px;
+    bottom: 50px;
     height: 70px;
     left: 50%;
     position: absolute;
@@ -112,19 +112,19 @@ html, body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 30px;
+  width: 25px;
 }
 
 .arrow:before {
-  -webkit-transform: rotate(42.5deg) translateX(-23%);
-          transform: rotate(42.5deg) translateX(-23%);
+  -webkit-transform: rotate(41.3deg) translateX(-23%);
+          transform: rotate(41.3deg) translateX(-23%);
   -webkit-transform-origin: top left;
           transform-origin: top left;
 }
 
 .arrow:after {
-  -webkit-transform: rotate(-42.5deg) translateX(23%);
-          transform: rotate(-42.5deg) translateX(23%);
+  -webkit-transform: rotate(-41.3deg) translateX(23%);
+          transform: rotate(-41.3deg) translateX(23%);
   -webkit-transform-origin: top right;
           transform-origin: top right;
 }
