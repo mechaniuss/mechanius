@@ -343,6 +343,12 @@ nav {
     }
 }
 
+@media screen and (max-height: 823px) and (max-width: 414px) {
+    .position {
+        bottom: 110px;
+    }
+}
+
 @media screen and (max-width: 823px) and (max-height: 414px) {
     .stap-title {
         font-size: 36px !important;
@@ -358,10 +364,6 @@ nav {
     
     .custom-bottom-2 {
         bottom: 56px !important;
-    }
-    
-    .position {
-        bottom: 50px !important;
     }
 }
 
