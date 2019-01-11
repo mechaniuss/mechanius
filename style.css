@@ -75,7 +75,7 @@ html, body {
 
 .position {
     bottom: 70px;
-    height: 60px;
+    height: 70px;
     left: 50%;
     position: absolute;
     width: 50px;
@@ -94,13 +94,13 @@ html, body {
 }
 
 .arrow-first {
-  -webkit-animation: arrow-movement 2.5s ease-in-out infinite;
-          animation: arrow-movement 2.5s ease-in-out infinite;
+  -webkit-animation: arrow-movement 3s ease-in-out infinite;
+          animation: arrow-movement 3s ease-in-out infinite;
 }
 
 .arrow-second {
-  -webkit-animation: arrow-movement 2.5s 1.25s ease-in-out infinite;
-          animation: arrow-movement 2.5s 1.25s ease-in-out infinite;
+  -webkit-animation: arrow-movement 3s 1.5s ease-in-out infinite;
+          animation: arrow-movement 3s 1.5s ease-in-out infinite;
 }
 
 .arrow:before,
@@ -108,23 +108,23 @@ html, body {
   background: #fff;
   content: "";
   display: block;
-  height: 3px;
+  height: 3.1px;
   position: absolute;
   top: 0;
   left: 0;
-  width: 25px;
+  width: 30px;
 }
 
 .arrow:before {
-  -webkit-transform: rotate(45deg) translateX(-23%);
-          transform: rotate(45deg) translateX(-23%);
+  -webkit-transform: rotate(42.5deg) translateX(-23%);
+          transform: rotate(42.5deg) translateX(-23%);
   -webkit-transform-origin: top left;
           transform-origin: top left;
 }
 
 .arrow:after {
-  -webkit-transform: rotate(-45deg) translateX(23%);
-          transform: rotate(-45deg) translateX(23%);
+  -webkit-transform: rotate(-42.5deg) translateX(23%);
+          transform: rotate(-42.5deg) translateX(23%);
   -webkit-transform-origin: top right;
           transform-origin: top right;
 }
