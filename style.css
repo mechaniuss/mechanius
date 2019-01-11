@@ -359,6 +359,10 @@ nav {
     .custom-bottom-2 {
         bottom: 56px !important;
     }
+    
+    .position {
+        bottom: 50px !important;
+    }
 }
 
 @media screen and (max-width: 450px) {
