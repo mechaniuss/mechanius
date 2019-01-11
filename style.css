@@ -94,13 +94,13 @@ html, body {
 }
 
 .arrow-first {
-  -webkit-animation: arrow-movement 2s ease-in-out infinite;
-          animation: arrow-movement 2s ease-in-out infinite;
+  -webkit-animation: arrow-movement 2.5s ease-in-out infinite;
+          animation: arrow-movement 2.5s ease-in-out infinite;
 }
 
 .arrow-second {
-  -webkit-animation: arrow-movement 2s 1s ease-in-out infinite;
-          animation: arrow-movement 2s 1s ease-in-out infinite;
+  -webkit-animation: arrow-movement 2.5s 1.25s ease-in-out infinite;
+          animation: arrow-movement 2.5s 1.25s ease-in-out infinite;
 }
 
 .arrow:before,
