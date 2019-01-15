@@ -181,10 +181,11 @@ html, body {
     font-family: Montserrat;
 }
 
-.auto-background-dark {
-    background-image: -webkit-linear-gradient(bottom left, #232323, #282828, #2c2c2c, #313131, #363636);
+.background-light {
+    /*background-image: -webkit-linear-gradient(bottom left, #232323, #282828, #2c2c2c, #313131, #363636);
     background-image: -o-linear-gradient(bottom left, #232323, #282828, #2c2c2c, #313131, #363636);
-    background-image: linear-gradient(to top right, #232323, #282828, #2c2c2c, #313131, #363636);
+    background-image: linear-gradient(to top right, #232323, #282828, #2c2c2c, #313131, #363636);*/
+    background-color: white !important;
 }
 
 .second-section h1 {
