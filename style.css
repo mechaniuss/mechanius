@@ -63,16 +63,6 @@ html, body {
     color: white;
 }
 
-/*.arrow {
-    bottom: 50px;
-    display: block;
-    height: 50px;
-    left: 50%;
-    margin-left: -25px;
-    position: absolute;
-    width: 50px;
-}*/
-
 .position {
     bottom: 50px;
     height: 70px;
@@ -94,13 +84,8 @@ html, body {
 }
 
 .arrow-first {
-  -webkit-animation: arrow-movement 3s ease-in-out infinite;
-          animation: arrow-movement 3s ease-in-out infinite;
-}
-
-.arrow-second {
-  -webkit-animation: arrow-movement 3s 1.5s ease-in-out infinite;
-          animation: arrow-movement 3s 1.5s ease-in-out infinite;
+  -webkit-animation: arrow-movement 3.5s ease-in-out infinite;
+          animation: arrow-movement 3.5s ease-in-out infinite;
 }
 
 .arrow:before,
