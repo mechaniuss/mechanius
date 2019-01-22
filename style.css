@@ -27,22 +27,17 @@ html, body {
 }
 
 .bg-grad {
-    /*background: #4b6cb7;  
-    background: -webkit-linear-gradient(to left, #182848, #4b6cb7); 
-    background: linear-gradient(to left, #182848, #4b6cb7);*/
-    background: #e65c00;
-    background: -webkit-linear-gradient(to left, #F9D423, #e65c00); 
-    background: linear-gradient(to left, #F9D423, #e65c00);
+    background-image: linear-gradient(to bottom, #327ebf, #2674a8, #236a90, #275e7a, #2c5364);
 }
 
 .bg-grad-2 {
     background: #0F2027;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .bg-grad-3 {
-    background-image: linear-gradient(to bottom, #0f2027, #0e1d23, #0c191f, #0a161b, #061217);
+    background-image: linear-gradient(to bottom, #0f2027, #0e1d24, #0d1b22, #0c191f, #0a161c);
 }
 
 .background-bar {
@@ -247,7 +242,7 @@ nav {
 
 .bg-special {
     font-family: Clear Sans;
-    background-color: white;
+    background-image: linear-gradient(to bottom, #0a161c, #0d1118, #0d0b11, #090508, #000000);
 }
 
 .dropdown-menu {
