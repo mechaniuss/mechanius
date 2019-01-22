@@ -343,7 +343,8 @@ ol li::before {
 
 @media screen and (max-height: 823px) and (max-width: 414px) {
     .background {
-        background-attachment: fixed;
+        background-attachment: scroll;
+        background-position: right;
     }
     
     .position {
