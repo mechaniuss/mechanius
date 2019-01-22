@@ -27,13 +27,14 @@ html, body {
 }
 
 .bg-grad {
-    background-image: linear-gradient(to bottom, #327ebf, #2674a8, #236a90, #275e7a, #2c5364);
+    background-image: linear-gradient(to bottom, #decba4, #a1b18d, #6a9481, #417476, #2c5364);
 }
 
 .bg-grad-2 {
-    background: #0F2027;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #0F2027; 
+    background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027); 
+    background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027);
+    /*background-image: linear-gradient(to bottom, #f2c94c, #deba4b, #cbab4a, #b89c48, #a68e46);*/
 }
 
 .bg-grad-3 {
