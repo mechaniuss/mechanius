@@ -26,6 +26,10 @@ html, body {
     font-family: Montserrat;
 }
 
+.opacity-text {
+    color: rgba(255,255,255,0.45);
+}
+
 .bg-grad {
     background-image: linear-gradient(to bottom, #decba4, #a1b18d, #6a9481, #417476, #2c5364);
 }
