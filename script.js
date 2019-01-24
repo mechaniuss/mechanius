@@ -13,7 +13,7 @@ $(document).ready(function() {
         $('.second-section .bg-gradient p').text('Autobarius - система автоматического розлива жидкости');
     })*/
     
-    $(".link-button, .nav-link-2, .first_cat").on("click", function (event) {
+    $(".nav-item").on("click", function (event) {
         event.preventDefault();
         var id  = $(this).attr('href'),
             top = $(id).offset().top;

@@ -13,8 +13,8 @@ html, body {
     min-height: 50vh;
 }
 
-.h-75-spec {
-    min-height: 75vh;
+.h-90-spec {
+    min-height: 90vh;
 }
 
 .h-100-spec {
@@ -25,6 +25,13 @@ html, body {
     right: 0;
     font-family: Montserrat;
 }
+
+.icons8-1c { 
+display: inline-block;
+width: 75px;
+height: 75px;
+background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNzUiIGhlaWdodD0iNzUiCnZpZXdCb3g9IjAgMCAyMjQgMjI0IgpzdHlsZT0iIGZpbGw6I2U3NGMzYzsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDIyNHYtMjI0aDIyNHYyMjR6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgaWQ9IkxheWVyXzEiIGZpbGw9IiNmZmZmZmYiPjxnPjxwYXRoIGQ9Ik0xOS42LDE3MC44di04NGgtMTYuOHYtMTEuMmgyOHY5NS4yeiI+PC9wYXRoPjxwYXRoIGQ9Ik0yOCw3OC40djg5LjZoLTUuNnYtNzguNHYtNS42aC01LjZoLTExLjJ2LTUuNmgyMi40TTMzLjYsNzIuOGgtMzMuNnYxNi44aDE2Ljh2ODRoMTYuOHYtMTAwLjh6Ij48L3BhdGg+PC9nPjxnPjxwYXRoIGQ9Ik00MiwxNzAuOHYtMTA2LjRoLTIyLjR2LTExLjJoMzMuNnYxMTcuNnoiPjwvcGF0aD48cGF0aCBkPSJNNTAuNCw1NnYxMTJoLTUuNnYtMTAwLjh2LTUuNmgtNS42aC0xNi44di01LjZoMjhNNTYsNTAuNGgtMzkuMnYxNi44aDIyLjR2MTA2LjRoMTYuOHYtMTIzLjJ6Ij48L3BhdGg+PC9nPjxnPjxwYXRoIGQ9Ik0xMjguOCwxNzAuOGMtMzIuNDI0LDAgLTU4LjgsLTI2LjM3NiAtNTguOCwtNTguOGMwLC0zMi40MjQgMjYuMzc2LC01OC44IDU4LjgsLTU4LjhjMzEuNDgzMiwwIDU3LjI3MTIsMjQuODY5NiA1OC43MzI4LDU2aC0xMS4yMTY4Yy0xLjQ1NiwtMjQuOTQ4IC0yMi4yMDk2LC00NC44IC00Ny41MTYsLTQ0LjhjLTI2LjI0NzIsMCAtNDcuNiwyMS4zNTI4IC00Ny42LDQ3LjZjMCwyNi4yNDcyIDIxLjM1MjgsNDcuNiA0Ny42LDQ3LjZoOTIuNHYxMS4yeiI+PC9wYXRoPjxwYXRoIGQ9Ik0xMjguOCw1NmMyOC45ODU2LDAgNTIuOTAzMiwyMi4xNDI0IDU1LjcyLDUwLjRoLTUuNjMzNmMtMi43OTQ0LC0yNS4xNjY0IC0yNC4xOTIsLTQ0LjggLTUwLjA5MiwtNDQuOGMtMjcuNzkyOCwwIC01MC40LDIyLjYwNzIgLTUwLjQsNTAuNGMwLDI3Ljc5MjggMjIuNjA3Miw1MC40IDUwLjQsNTAuNGg4OS42djUuNmgtODkuNTk0NGMtMzAuODc4NCwwIC01NiwtMjUuMTIxNiAtNTYsLTU2YzAsLTMwLjg3ODQgMjUuMTIxNiwtNTYgNTYsLTU2TTEyOC44LDUwLjRjLTMzLjk2NCwwIC02MS42LDI3LjYzNiAtNjEuNiw2MS42YzAsMzMuOTY0IDI3LjYzNiw2MS42IDYxLjYsNjEuNmg5NS4ydi0xNi44aC05NS4yYy0yNC43MDE2LDAgLTQ0LjgsLTIwLjA5ODQgLTQ0LjgsLTQ0LjhjMCwtMjQuNzAxNiAyMC4wOTg0LC00NC44IDQ0LjgsLTQ0LjhjMjQuNzAxNiwwIDQ0LjgsMjAuMDk4NCA0NC44LDQ0LjhoMTYuOGMwLC0zMy45NjQgLTI3LjYzNiwtNjEuNiAtNjEuNiwtNjEuNnoiPjwvcGF0aD48L2c+PGc+PHBhdGggZD0iTTEyOC44LDE0Mi44Yy0xNi45ODQ4LDAgLTMwLjgsLTEzLjgyMDggLTMwLjgsLTMwLjhjMCwtMTYuOTc5MiAxMy44MTUyLC0zMC44IDMwLjgsLTMwLjhjMTYuMDM4NCwwIDI5LjI1NDQsMTIuMzIgMzAuNjc2OCwyOGgtMTEuMjcyOGMtMS4zNjA4LC05LjQ4NjQgLTkuNTQyNCwtMTYuOCAtMTkuMzk4NCwtMTYuOGMtMTAuODA4LDAgLTE5LjYsOC43OTIgLTE5LjYsMTkuNmMwLDEwLjgwOCA4Ljc5MiwxOS42IDE5LjYsMTkuNmg5Mi40djExLjJ6Ij48L3BhdGg+PHBhdGggZD0iTTEyOC44LDg0YzEzLjUyNCwwIDI0LjgzNiw5LjYzNzYgMjcuNDQsMjIuNGgtNS43NDU2Yy0yLjQ5MiwtOS42NDg4IC0xMS4yNzI4LC0xNi44IC0yMS42ODg4LC0xNi44Yy0xMi4zNTM2LDAgLTIyLjQsMTAuMDQ2NCAtMjIuNCwyMi40YzAsMTIuMzUzNiAxMC4wNDY0LDIyLjQgMjIuNCwyMi40aDg5LjZ2NS42aC04OS42MDU2Yy0xNS40MzkyLDAgLTI4LC0xMi41NjA4IC0yOCwtMjhjMCwtMTUuNDM5MiAxMi41NjA4LC0yOCAyOCwtMjhNMTI4LjgsNzguNGMtMTguNTMwNCwwIC0zMy42LDE1LjA2OTYgLTMzLjYsMzMuNmMwLDE4LjUzMDQgMTUuMDY5NiwzMy42IDMzLjYsMzMuNmg5NS4ydi0xNi44aC05NS4yYy05LjI2MjQsMCAtMTYuOCwtNy41Mzc2IC0xNi44LC0xNi44YzAsLTkuMjYyNCA3LjUzNzYsLTE2LjggMTYuOCwtMTYuOGM5LjI2MjQsMCAxNi44LDcuNTM3NiAxNi44LDE2LjhoMTYuOGMwLC0xOC41MzA0IC0xNS4wNjk2LC0zMy42IC0zMy42LC0zMy42eiI+PC9wYXRoPjwvZz48L2c+PC9nPjwvc3ZnPg==') 50% 50% no-repeat;
+background-size: 100%; }
 
 .opacity-text {
     color: rgba(255,255,255,0.45);
@@ -43,6 +50,10 @@ html, body {
 
 .bg-grad-3 {
     background-image: linear-gradient(to bottom, #0f2027, #0e1d24, #0d1b22, #0c191f, #0a161c);
+}
+
+.bg-grad-4 {
+    background-image: linear-gradient(to bottom, #0a161c, #091419, #071216, #061013, #050d10);
 }
 
 .background-bar {
@@ -184,7 +195,6 @@ html, body {
 
 .nav-link {
     font-family: Clear Sans;
-    font-weight: bold;
     transition: all 400ms;
 }
 
@@ -233,21 +243,19 @@ html, body {
     background-color: #232323;
 }
 
-/*.p-video {
-    padding: 8vh;
+nav {
+    opacity: 0.75;
+    box-shadow: 0 4px 6px -2px rgba(0,0,0,0.45) ;
+    transition: 400ms;
 }
 
-.embed-responsive {
-    border-radius: 5px;
-}*/
-
-nav {
-    border-bottom: 2px solid #2c3035;
+nav:hover {
+    opacity: 1;
 }
 
 .bg-special {
     font-family: Clear Sans;
-    background-image: linear-gradient(to bottom, #0a161c, #0d1118, #0d0b11, #090508, #000000);
+    background-image: linear-gradient(to bottom, #050d10, #06090d, #060609, #040304, #000000);
 }
 
 .dropdown-menu {
