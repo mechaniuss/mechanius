@@ -26,6 +26,14 @@ html, body {
     font-family: Montserrat;
 }
 
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
 .icons8-1c { 
 display: inline-block;
 width: 75px;
@@ -56,6 +64,10 @@ background-size: 100%; }
     background-image: linear-gradient(to bottom, #0a161c, #091419, #071216, #061013, #050d10);
 }
 
+.bg-grad-5 {
+    background-image: linear-gradient(to bottom, #050d10, #050d10, #040d10, #040d10, #030d10);
+}
+
 .background-bar {
     background-image: url(bar.jpg);
     -webkit-background-size: cover;
@@ -70,12 +82,6 @@ background-size: 100%; }
     -webkit-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
-}
-
-.card-special {
-    background-color: #5b5b5b;
-    border-radius: 5px;
-    border: 3px solid #4f4f4f;
 }
 
 .first-section div h1 {
@@ -255,7 +261,7 @@ nav:hover {
 
 .bg-special {
     font-family: Clear Sans;
-    background-image: linear-gradient(to bottom, #050d10, #06090d, #060609, #040304, #000000);
+    background-image: linear-gradient(to bottom, #030d10, #06090d, #060609, #040304, #000000);
 }
 
 .dropdown-menu {
@@ -307,9 +313,6 @@ ol li::before {
       line-height: var(--size);
       width: var(--size);
       height: var(--size);
-      top: 0;
-      background: ;
-      border-radius: 50%;
       text-align: center;
 }
 
@@ -382,18 +385,14 @@ ol li::before {
     }
     
     .nav-link {
-        font-size: 12.5px;
-    }
-    
-    .dropdown-item {
-        font-size: 14px;
+        font-size: 14.5px;
     }
     
     .mobile-product-title {
         font-size: 54px !important;
     }
     
-    .stap-title {
-        font-size: 32px !important;
+    .position {
+        bottom: 90px;
     }
 }
