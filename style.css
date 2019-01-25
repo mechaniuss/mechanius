@@ -29,16 +29,14 @@ html, body {
 input {
     border: 2px solid rgba(255,255,255,0.05);
     border-radius: 30px;
-    background-color: rgba(255,255,255,0.085);
     font: 16.5px Montserrat;
     padding: 13px;
-    color: white;
     transition: 300ms;
 }
 
 input:focus {
     outline: none;
-    box-shadow: 0 0 30px rgba(255,255,255,0.2);
+    box-shadow: 0 0 35px rgba(255,255,255,0.2);
 }
 
 .navbar-toggler {
@@ -81,6 +79,12 @@ background-size: 100%; }
 
 .bg-grad-5 {
     background-image: linear-gradient(to bottom, #050d10, #050d10, #040d10, #040d10, #030d10);
+}
+
+.bg-grad-6 {
+    background: #1e3c72;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .background-bar {
@@ -332,7 +336,7 @@ ol li::before {
 }
 
 .button-submit {
-    background-color: black;
+    background-color: transparent;
     border: 2px solid white;
     border-radius: 10px;
     padding: 9px;
