@@ -1,3 +1,7 @@
+<?php
+    use PHPMailer\PHPMailer\PHPMailer;
+    use PHPMailer\PHPMailer\Exception;
+?>
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8">
@@ -165,9 +169,55 @@
                 </div>
             </div>
         </section>
+        <section id="form" class='h-50-spec py-5 d-flex'>
+            <form class='mx-auto' method='post' action='index.php#form'>
+                <div class="mx-auto row container text-light align-self-center">
+                    <div class='col-12 col-lg-7'>
+                        <h2 class='montserrat title-block font-weight-bold'>Интересно? Мы перезвоним!</h2>
+                        <p class="opacity-text clear-sans mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel odio eos deserunt fugiat eveniet enim ipsa laborum totam animi laudantium tenetur accusamus officiis, ratione id quisquam quis. At non, perferendis!</p>
+                        <div class='mt-5 mx-0 row'>
+                            <input name='phone' placeholder="телефон *" type="text" required>
+                            <input name='mail' placeholder="эл. почта" class='ml-auto' type="email">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5 text-center">
+                        <img src="smarttap.png"  width="450px"  class='img-fluid' alt="">
+                    </div>
+                    <button name='submit' class='mx-auto mt-3 px-3 button-submit montserrat font-weight-bold text-light'>Отправить</button>
+                </div>
+                <?php
+                    $data = $_POST;
+
+                    if( isset($data['submit']) )
+                    {
+                        echo "<h5 class='font-weight-bold clear-sans text-center text-light mt-4'>Заявка принята</h5>";
+                        require 'PHPMailer/src/Exception.php';
+                        require 'PHPMailer/src/PHPMailer.php';
+                        require 'PHPMailer/src/SMTP.php';
+                        $mail = new PHPMailer(true);
+                        $mail->isSMTP();
+                        $mail->Host = 'smtp.gmail.com';
+                        $mail->SMTPAuth = true;
+                        $mail->Username = 'rouzyqqq@gmail.com';
+                        $mail->Password = 'EFG-cf6-bou-B7L';
+                        $mail->SMTPSecure = 'ssl';
+                        $mail->Port = '465';
+                        $mail->CharSet = 'UTF-8';
+                        $mail->setFrom('rouzyqqq@gmail.com', 'Autobarius');
+                        $mail->addAddress("aleksandr32al32@gmail.com");
+                        $mail->isHTML(true);
+                        $mail->Subject = 'Заявка';
+                        $mail->Body = '<div class="font-weight-bold"><h2>Телефон: '.$data['phone'].'<br><br>Эл. почта: '.$data['mail'].'</h2></div>';
+                        $mail->AltBody = 'Телефон: '.$data['phone'].' эл. почта: '.$data['mail'];
+
+                        $mail->send();
+                    }
+                ?>
+            </form>
+        </section>
         <section id='contacts' class="bg-special text-light pt-2 pt-lg-0 h-50-spec d-flex">
             <div class='container align-self-center'>
-                <h1 class='font-weight-bold text-center montserrat'>Контакты</h1>
+                <h1 class='text-center montserrat'>Контакты</h1>
                 <div class='col-11 col-lg-10 my-4 mx-auto'>
                     <p class="p-2">+7 (989) 21 532 75</p>
                     <p class="p-2">понедельник - пятница, 9:00 - 21:00</p>
