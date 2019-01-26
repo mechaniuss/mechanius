@@ -13,8 +13,8 @@ html, body {
     min-height: 50vh;
 }
 
-.h-90-spec {
-    min-height: 90vh;
+.py-7 {
+    padding: 75px 0px;
 }
 
 .h-100-spec {
@@ -27,7 +27,7 @@ html, body {
 }
 
 input {
-    border: 2px solid rgba(255,255,255,0.05);
+    border: 3px solid rgba(0,0,0,0.1);
     border-radius: 30px;
     font: 16.5px Montserrat;
     padding: 13px;
@@ -36,7 +36,7 @@ input {
 
 input:focus {
     outline: none;
-    box-shadow: 0 0 35px rgba(255,255,255,0.2);
+    box-shadow: 0 0 35px rgba(255,255,255,0.25);
 }
 
 .navbar-toggler {
