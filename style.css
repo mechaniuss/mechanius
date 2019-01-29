@@ -295,16 +295,16 @@ nav {
 }
 
 .st-block h2 {
-    border: 2px solid rgba(0,0,0,0.05);
+    /*border: 2px solid rgba(0,0,0,0.05);*/
     position: absolute;
     font-family: montserrat;
-    top: -24px;
+    top: -22px;
     left: 40%;
     border-radius: 50%;
     text-align: center;
-    background-color: white;
+    background-color: #F8F9FA;
     width: 45px;
-    color: black;
+    color: rgba(0,0,0,0.75);
 }
 
 .button-submit {
