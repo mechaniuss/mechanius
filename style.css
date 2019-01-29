@@ -63,10 +63,6 @@ input:focus {
     color: rgba(255,255,255,0.45);
 }
 
-.bg-gray {
-    background-color: #414445;
-}
-
 .bg-grad {
     background-image: linear-gradient(to bottom, #decba4, #a1b18d, #6a9481, #417476, #2c5364);
 }
@@ -289,8 +285,26 @@ nav {
 }
 
 .st-work {
-    font: 16.5px Clear Sans;
-    color: rgba(0,0,0,.9)
+    font: 16px Clear Sans;
+    color: rgba(255,255,255,0.85);
+}
+
+.st-block {
+    border-radius: 5px;
+    /*box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.2)*/
+}
+
+.st-block h2 {
+    border: 2px solid rgba(0,0,0,0.05);
+    position: absolute;
+    font-family: montserrat;
+    top: -24px;
+    left: 40%;
+    border-radius: 50%;
+    text-align: center;
+    background-color: white;
+    width: 45px;
+    color: black;
 }
 
 .button-submit {
@@ -310,6 +324,12 @@ nav {
 
 .button-submit:focus {
     outline: none;
+}
+
+@media screen and (max-width: 991px) {
+    .st-block h2 {
+        left: 46.5%;
+    }
 }
 
 @media screen and (max-width: 823px) {
