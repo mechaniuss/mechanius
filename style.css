@@ -38,7 +38,7 @@ input {
     border: 3px solid rgba(0,0,0,0.1);
     border-radius: 30px;
     font: 16.5px Montserrat;
-    padding: 13px;
+    padding: 10px;
     transition: 300ms;
 }
 
@@ -286,20 +286,19 @@ nav {
 
 .st-work {
     font: 16px Clear Sans;
-    color: rgba(255,255,255,0.85);
 }
 
 .st-block {
     border-radius: 5px;
-    /*box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.2)*/
+    background-color: rgba(0,0,0,0.04);
+    border: 2px solid rgba(0,0,0,0.07)
 }
 
 .st-block h2 {
-    /*border: 2px solid rgba(0,0,0,0.05);*/
     position: absolute;
     font-family: montserrat;
     top: -22px;
-    left: 40%;
+    left: 45%;
     border-radius: 50%;
     text-align: center;
     background-color: #F8F9FA;
@@ -309,8 +308,9 @@ nav {
 
 .button-submit {
     background-color: transparent;
-    border: 2px solid white;
+    border: 2px solid #F0BC43;
     border-radius: 10px;
+    color: #F0BC43;
     padding: 9px;
     font-size: 17.2px;
     transition: 400ms;
@@ -318,7 +318,7 @@ nav {
 }
 
 .button-submit:hover {
-    background-color: white;
+    background-color: #F0BC43;
     color: black !important;
 }
 
@@ -328,7 +328,7 @@ nav {
 
 @media screen and (max-width: 991px) {
     .st-block h2 {
-        left: 46.5%;
+        left: 45%;
     }
 }
 
