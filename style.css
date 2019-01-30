@@ -39,6 +39,7 @@ input {
     border-radius: 30px;
     font: 16.5px Montserrat;
     padding: 10px;
+    width: 100%;
     transition: 300ms;
 }
 
@@ -307,19 +308,19 @@ nav {
 }
 
 .button-submit {
-    background-color: transparent;
-    border: 2px solid #F0BC43;
-    border-radius: 10px;
-    color: #F0BC43;
-    padding: 9px;
-    font-size: 17.2px;
+    background-color: #DF9534;
+    border: 3px solid #c48635;
+    border-radius: 50px;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    font-size: 16.5px;
     transition: 400ms;
     cursor: pointer;
 }
 
 .button-submit:hover {
-    background-color: #F0BC43;
-    color: black !important;
+    background-color: #c48635;
 }
 
 .button-submit:focus {
