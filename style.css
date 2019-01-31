@@ -292,7 +292,8 @@ nav {
 .st-block {
     border-radius: 5px;
     background-color: rgba(0,0,0,0.04);
-    border: 2px solid rgba(0,0,0,0.07)
+    border: 2px solid rgba(0,0,0,0.07);
+    box-shadow: 0 2px 16px rgba(168, 175, 196, .5);
 }
 
 .st-block h2 {
