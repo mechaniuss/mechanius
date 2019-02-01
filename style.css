@@ -29,6 +29,10 @@ html, body {
     user-select: none;
 }
 
+.link-button:hover {
+    text-decoration: none;
+}
+
 .phone-number {
     right: 0;
     font-family: Montserrat;
@@ -118,6 +122,10 @@ input:focus {
 .first-section div p {
     font: 19.5px Clear Sans;
     color: white;
+}
+
+.small-fsize {
+    font-size: 13.5px;
 }
 
 .position {
