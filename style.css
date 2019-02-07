@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500,700,800&subset=cyrillic');
 
-img {
-    user-select: none;
-}
-
 html, body {
     height:100%;
     background-color: black;
 }
 
-.h-50-spec {
-    min-height: 50vh;
+img {
+    user-select: none;
 }
 
 .h-75-spec {
     min-height: 75vh;
+}
+
+.h-100-spec {
+    min-height: 100vh;
 }
 
 .py-7 {
@@ -27,10 +27,6 @@ html, body {
 
 .pt-6 {
     padding-top: 80px;
-}
-
-.h-100-spec {
-    min-height: 100vh;
 }
 
 .us-none {
@@ -76,7 +72,7 @@ input:focus {
     color: rgba(255,255,255,0.45);
 }
 
-.bg-grad {
+/*.bg-grad {
     background-image: linear-gradient(to bottom, #decba4, #a1b18d, #6a9481, #417476, #2c5364);
 }
 
@@ -84,33 +80,25 @@ input:focus {
     background: #0F2027; 
     background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027); 
     background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027);
-    /*background-image: linear-gradient(to bottom, #f2c94c, #deba4b, #cbab4a, #b89c48, #a68e46);*/
 }
 
 .bg-grad-3 {
     background-image: linear-gradient(to bottom, #0f2027, #0e1d24, #0d1b22, #0c191f, #0a161c);
-}
+}*/
 
 .bg-grad-4 {
     background-image: linear-gradient(to bottom, #0a161c, #091419, #071216, #061013, #050d10);
 }
 
-.bg-grad-5 {
+/*.bg-grad-5 {
     background-image: linear-gradient(to bottom, #050d10, #050d10, #040d10, #040d10, #030d10);
 }
 
 .bg-grad-6 {
-    background: #1e3c72;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.background-bar {
-    background-image: url(bar.jpg);
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-attachment: fixed;
-}
+    background: #1e3c72;
+    background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);
+    background: linear-gradient(to right, #2a5298, #1e3c72);
+}*/
 
 .background {
     -webkit-background-size: 100%;
@@ -146,45 +134,45 @@ input:focus {
 }
 
 .arrow {
-  opacity: 0;
-  position: absolute;
-  left: 30%;
-  top: 90%;
-  -webkit-transform-origin: 50% 50%;
-          transform-origin: 50% 50%;
-  -webkit-transform: translate3d(-50%, -50%, 0);
-          transform: translate3d(-50%, -50%, 0);
+    opacity: 0;
+    position: absolute;
+    left: 30%;
+    top: 90%;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
 }
 
 .arrow-first {
-  -webkit-animation: arrow-movement 3.5s ease-in-out infinite;
-          animation: arrow-movement 3.5s ease-in-out infinite;
+    -webkit-animation: arrow-movement 3.5s ease-in-out infinite;
+    animation: arrow-movement 3.5s ease-in-out infinite;
 }
 
 .arrow:before,
 .arrow:after {
-  background: #fff;
-  content: "";
-  display: block;
-  height: 3.1px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 25px;
+    background: #fff;
+    content: "";
+    display: block;
+    height: 3.1px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25px;
 }
 
 .arrow:before {
-  -webkit-transform: rotate(41.3deg) translateX(-23%);
-          transform: rotate(41.3deg) translateX(-23%);
-  -webkit-transform-origin: top left;
-          transform-origin: top left;
+    -webkit-transform: rotate(41.3deg) translateX(-23%);
+    transform: rotate(41.3deg) translateX(-23%);
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
 }
 
 .arrow:after {
-  -webkit-transform: rotate(-41.3deg) translateX(23%);
-          transform: rotate(-41.3deg) translateX(23%);
-  -webkit-transform-origin: top right;
-          transform-origin: top right;
+    -webkit-transform: rotate(-41.3deg) translateX(23%);
+    transform: rotate(-41.3deg) translateX(23%);
+    -webkit-transform-origin: top right;
+    transform-origin: top right;
 }
 
 @-webkit-keyframes arrow-movement {
@@ -253,10 +241,6 @@ input:focus {
     min-height: 50vh;
 }
 
-.background-light {
-    background-color: white !important;
-}
-
 .second-section h1 {
     font: 70px Montserrat;
 }
@@ -277,28 +261,6 @@ nav {
 .bg-special {
     font-family: Clear Sans;
     background-image: linear-gradient(to bottom, #030d10, #06090d, #060609, #040304, #000000);
-}
-
-.dropdown-menu {
-    border-radius: 1px;
-    border: none;
-    border-left: 2px solid #2c3035;
-    border-right: 2px solid #2c3035;
-    border-bottom: 2px solid #2c3035;
-    background-color: #343A40;
-}
-
-.dropdown-menu a {
-    font-family: clear sans;
-    padding-left: 8px;
-    padding-right: 8px;
-    transition: 400ms;
-    color: rgba(255,255,255,.5);
-}
-
-.dropdown-menu a:hover {
-    background-color: #2c3035;
-    color: rgba(255,255,255,.6);
 }
 
 .st-work {
@@ -391,6 +353,10 @@ nav {
     
     .py-7 {
         padding: 80px 0;
+    }
+    
+    .question {
+        font-size: 17.5px !important;
     }
 }
 
