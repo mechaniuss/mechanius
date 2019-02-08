@@ -306,6 +306,10 @@ nav {
     outline: none;
 }
 
+.vklink:hover {
+    text-decoration: none;
+}
+
 @media screen and (max-width: 991px) {
     .st-block h2 {
         left: 45%;
