@@ -335,6 +335,20 @@ nav {
     height: 50px;
 }
 
+.img-custom-6 {
+    width: 350px;
+}
+
+.img-custom-7 {
+    width: 20px;
+    height: 20px;
+}
+
+.img-custom-8 {
+    width: 22px;
+    height: 22px;
+}
+
 @media screen and (max-width: 991px) {
     .st-block h2 {
         left: 45%;
