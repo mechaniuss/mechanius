@@ -310,6 +310,31 @@ nav {
     text-decoration: none;
 }
 
+.img-custom-1 {
+    width: 75px;
+    height: 75px;
+}
+
+.img-custom-2 {
+    width: 90px;
+    height: 90px;
+}
+
+.img-custom-3 {
+    width: 100px;
+    height: 100px;
+}
+
+.img-custom-4 {
+    width: 80px;
+    height: 80px;
+}
+
+.img-custom-5 {
+    width: 50px;
+    height: 50px;
+}
+
 @media screen and (max-width: 991px) {
     .st-block h2 {
         left: 45%;
