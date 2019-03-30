@@ -2,11 +2,22 @@
 
 html, body {
     height:100%;
-    background-color: black;
 }
 
 img {
     user-select: none;
+}
+
+.h-15-spec {
+    min-height: 15vh;
+}
+
+.h-40-spec {
+    min-height: 40vh;
+}
+
+.h-50-spec {
+    min-height: 50vh;
 }
 
 .h-75-spec {
@@ -42,18 +53,66 @@ img {
     font-family: Montserrat;
 }
 
+.do-btn-1 {
+    color: black !important;
+    background-color: #FED434;
+    border-radius: 50px;
+    border: 2px solid #FED434;
+    transition: 400ms;
+}
+
+.do-btn-2 {
+    color: white !important;
+    border-radius: 50px;
+    border: 2px solid white;
+    transition: 400ms;
+}
+
+.do-btn-1:hover, .do-btn-2:hover {
+    text-decoration: none;
+}
+
+.do-btn-1:hover {
+    -webkit-filter: brightness(0.75);
+    -o-filter: brightness(0.75);
+    filter: brightness(0.75);
+}
+
+.do-btn-2:hover {
+    background-color: white;
+    color: black !important;
+}
+
+.do-comment {
+    margin-bottom: 65px;
+}
+
+.do-btn-3 {
+    border-radius: 4px;
+    background-color: #FED434;
+    padding: 20px 60px;
+    color: black !important;
+    transition: 400ms;
+}
+
+.do-btn-3:hover {
+    text-decoration: none;
+    -webkit-filter: brightness(0.75);
+    -o-filter: brightness(0.75);
+    filter: brightness(0.75);
+}
+
 input {
-    border: 3px solid rgba(0,0,0,0.1);
-    border-radius: 7.5px;
-    font: 16.5px Montserrat;
-    padding: 10px;
-    width: 100%;
-    transition: 300ms;
+    border: none;
+    border-bottom: 2.5px solid rgba(0,0,0,0.1);
+    font-size: 15px;
+    padding: 0px 6px !important;
+    transition: 400ms;
 }
 
 input:focus {
     outline: none;
-    box-shadow: 0 0 35px rgba(255,255,255,0.25);
+    border-bottom: 2.5px solid #FED434;
 }
 
 .navbar-toggler {
@@ -76,8 +135,30 @@ input:focus {
     background-image: linear-gradient(to bottom, #0a161c, #091419, #071216, #061013, #050d10);
 }
 
+.bg-light {
+    background-color: white !important;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-do {
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    background-image: url(bg-do.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .bg-grad-end {
-    background-image: linear-gradient(to left top, #191729, #1e1c39, #21214b, #24265d, #262b6f);
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    background-image: url(contacts.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .background {
@@ -243,17 +324,15 @@ input:focus {
     font-size: 16.9px
 }
 
-.second-section-additional {
-    background-color: #232323;
-}
-
 nav {
-    box-shadow: 0 4px 6px -2px rgba(0,0,0,0.45) ;
+    background-color: rgba(0,0,0,0.6);
 }
 
-.bg-special {
-    font-family: Clear Sans;
-    background-image: linear-gradient(to bottom, #030d10, #06090d, #060609, #040304, #000000);
+.st-block-big {
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.04);
+    border: 2px solid rgba(0,0,0,0.07);
+    box-shadow: 0px 0px 16px rgba(168, 175, 196, .5);
 }
 
 .st-work {
@@ -261,10 +340,8 @@ nav {
 }
 
 .st-block {
-    border-radius: 5px;
-    background-color: rgba(0,0,0,0.04);
-    border: 2px solid rgba(0,0,0,0.07);
-    box-shadow: 0 2px 16px rgba(168, 175, 196, .5);
+    background-color: white;
+    box-shadow: 0px 0px 8px 1px rgba(168, 175, 196, .5);
 }
 
 .st-block h2 {
@@ -274,25 +351,23 @@ nav {
     left: 45%;
     border-radius: 50%;
     text-align: center;
-    background-color: #F8F9FA;
-    width: 45px;
+    background-color: #FED434;
+    width: 43.5px;
     color: rgba(0,0,0,0.75);
+    user-select: none;
 }
 
 .button-submit {
-    background-color: #ed9a2d;
-    border: 3px solid #db8b23;
-    border-radius: 10px;
-    color: white;
+    border: 4px solid #FED434;
+    color: black;
     padding: 12px;
-    width: 100%;
-    font-size: 16.5px;
     transition: 400ms;
-    cursor: pointer;
 }
 
 .button-submit:hover {
-    background-color: #db8b23;
+    background-color: #FED434;
+    color: black;
+    text-decoration: none;
 }
 
 .button-submit:focus {
@@ -376,9 +451,26 @@ nav {
     border-radius: 10px;
 }
 
+.contact-form {
+    background-color: white;
+    box-shadow: 0 0 8px 1.25px rgba(255,255,255,0.45)
+}
+
+.contact-form p {
+    font-size: 17.5px;
+}
+
+.autobarius {
+
+}
+
 @media screen and (max-width: 1024px) {
     input {
         margin-bottom: 13px;
+    }
+    
+    .w-50 {
+        width: 100% !important;
     }
 }
 
@@ -411,6 +503,18 @@ nav {
 
     .st-block {
         margin: 0;
+    }
+    
+    .do-btn-1, .do-btn-2 {
+        font-size: 15px;
+    }
+    
+    #contacts h1 {
+        font-size: 28.5px !important;
+    }
+    
+    .contact-form {
+        width: 100% !important;
     }
 }
 
@@ -471,10 +575,26 @@ nav {
     }
 
     .position {
-        bottom: 90px;
+        bottom: 30px;
     }
 
     .st-block h1 {
         font-size: 45px !important;
+    }
+    
+    .do-btn-1, .do-btn-2 {
+        font-size: 12px;
+    }
+    
+    .do-btn-3 {
+        font-size: 15px;
+    }
+    
+    #contacts h1 {
+        font-size: 24px !important;
+    }
+    
+    .contact-form {
+        padding: 35px !important;
     }
 }
