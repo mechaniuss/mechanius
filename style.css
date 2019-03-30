@@ -44,7 +44,7 @@ img {
 
 input {
     border: 3px solid rgba(0,0,0,0.1);
-    border-radius: 30px;
+    border-radius: 7.5px;
     font: 16.5px Montserrat;
     padding: 10px;
     width: 100%;
@@ -72,33 +72,13 @@ input:focus {
     color: rgba(255,255,255,0.45);
 }
 
-/*.bg-grad {
-    background-image: linear-gradient(to bottom, #decba4, #a1b18d, #6a9481, #417476, #2c5364);
-}
-
-.bg-grad-2 {
-    background: #0F2027; 
-    background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027); 
-    background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027);
-}
-
-.bg-grad-3 {
-    background-image: linear-gradient(to bottom, #0f2027, #0e1d24, #0d1b22, #0c191f, #0a161c);
-}*/
-
 .bg-grad-4 {
     background-image: linear-gradient(to bottom, #0a161c, #091419, #071216, #061013, #050d10);
 }
 
-/*.bg-grad-5 {
-    background-image: linear-gradient(to bottom, #050d10, #050d10, #040d10, #040d10, #030d10);
+.bg-grad-end {
+    background-image: linear-gradient(to left top, #191729, #1e1c39, #21214b, #24265d, #262b6f);
 }
-
-.bg-grad-6 {
-    background: #1e3c72;
-    background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);
-    background: linear-gradient(to right, #2a5298, #1e3c72);
-}*/
 
 .background {
     -webkit-background-size: 100%;
@@ -107,6 +87,19 @@ input:focus {
     -webkit-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.bg-error {
+    background-image: linear-gradient(to right bottom, #ffa52f, #ff9957, #ff917a, #ff919a, #ff96b4);
+}
+
+.bg-smarttap {
+    background: url(smarttap.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0 2px 16px rgba(168, 175, 196, .4);
+    padding: 2px;
 }
 
 .first-section div h1 {
@@ -287,9 +280,9 @@ nav {
 }
 
 .button-submit {
-    background-color: #DF9534;
-    border: 3px solid #c48635;
-    border-radius: 50px;
+    background-color: #ed9a2d;
+    border: 3px solid #db8b23;
+    border-radius: 10px;
     color: white;
     padding: 12px;
     width: 100%;
@@ -299,7 +292,7 @@ nav {
 }
 
 .button-submit:hover {
-    background-color: #c48635;
+    background-color: #db8b23;
 }
 
 .button-submit:focus {
@@ -349,9 +342,43 @@ nav {
     height: 22px;
 }
 
-@media screen and (max-width: 991px) {
-    .st-block h2 {
-        left: 45%;
+.error-title {
+    font-family: Helvetica Neue;
+    letter-spacing: 15px;
+    font-size: 280px;
+    text-shadow: 10px 10px rgba(255,255,255,0.5);
+}
+
+.error-text {
+    text-shadow: 0px 0px 3px rgba(255,255,255,0.5);
+}
+
+.error-btn {
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(255,255,255,0.5);
+    font-size: 17px;
+    color: black;
+    transition: 400ms;
+}
+
+.error-btn:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+    color: black;
+    text-decoration: none;
+}
+
+.form-submit {
+    border: 2px solid rgba(255,255,255,0.05);
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    input {
+        margin-bottom: 13px;
     }
 }
 
@@ -359,7 +386,7 @@ nav {
     .second-section p {
         font-size: 16px !important;
     }
-    
+
     .title-block {
         font-size: 32px;
     }
@@ -369,18 +396,21 @@ nav {
     .first-section div h1 {
         font-size: 72px;
     }
-    
+
     .second-section p {
         font-size: 16px;
     }
-    
+
     .second-section .arrow {
         bottom: 0;
     }
-    
-    input {
-        width: 100%;
-        margin-bottom: 13px;
+
+    .error-title {
+        font-size: 160px;
+    }
+
+    .st-block {
+        margin: 0;
     }
 }
 
@@ -389,17 +419,17 @@ nav {
         background-attachment: scroll;
         background-position: center;
     }
-    
+
     .position {
         bottom: 85px;
     }
-    
+
     .py-7 {
         padding: 80px 0;
     }
-    
+
     .question {
-        font-size: 17.5px !important;
+        font-size: 19px !important;
     }
 }
 
@@ -407,7 +437,7 @@ nav {
     .position {
         bottom: 50px;
     }
-    
+
     .py-7 {
         padding: 80px 0;
     }
@@ -417,9 +447,13 @@ nav {
     .first-section div h1 {
         font-size: 50px;
     }
-    
+
     .second-section h1 {
         font-size: 55px;
+    }
+
+    .error-title {
+        font-size: 130px;
     }
 }
 
@@ -427,16 +461,20 @@ nav {
     .navbar-brand {
         font-size: 16px;
     }
-    
+
     .nav-link {
         font-size: 14.5px;
     }
-    
+
     .mobile-product-title {
         font-size: 54px !important;
     }
-    
+
     .position {
         bottom: 90px;
+    }
+
+    .st-block h1 {
+        font-size: 45px !important;
     }
 }
