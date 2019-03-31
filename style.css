@@ -8,6 +8,10 @@ img {
     user-select: none;
 }
 
+.w-40 {
+    width: 40% !important;
+}
+
 .h-15-spec {
     min-height: 15vh;
 }
@@ -112,7 +116,7 @@ input {
 
 input:focus {
     outline: none;
-    border-bottom: 2.5px solid #FED434;
+    border-bottom: 2.5px solid #FED434 !important;
 }
 
 .navbar-toggler {
@@ -341,7 +345,7 @@ nav {
 
 .st-block {
     background-color: white;
-    box-shadow: 0px 0px 8px 1px rgba(168, 175, 196, .5);
+    box-shadow: 0px 0px 8px 1px rgba(168, 175, 196, .4);
 }
 
 .st-block h2 {
@@ -460,8 +464,31 @@ nav {
     font-size: 17.5px;
 }
 
-.autobarius {
+.first::after {
+    content: '1';
+    position: absolute;
+    margin-left: 15px;
+    padding: 8px 15px;
+    border-radius: 50px;
+    border: 2.5px solid #FED434;
+}
 
+.second::before {
+    content: '2';
+    position: absolute;
+    right: 100%;
+    padding: 8px 15px;
+    border-radius: 50px;
+    border: 2.5px solid #FED434;
+}
+
+.third::after {
+    content: '3';
+    position: absolute;
+    margin-left: 15px;
+    padding: 8px 15px;
+    border-radius: 50px;
+    border: 2.5px solid #FED434;
 }
 
 @media screen and (max-width: 1024px) {
@@ -570,15 +597,11 @@ nav {
         font-size: 14.5px;
     }
 
-    .mobile-product-title {
-        font-size: 54px !important;
-    }
-
     .position {
         bottom: 30px;
     }
 
-    .st-block h1 {
+    .st-block-big h1 {
         font-size: 45px !important;
     }
     
