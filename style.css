@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500,700,800&subset=cyrillic');
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
 html, body {
     height:100%;
 }
@@ -466,31 +471,65 @@ nav:hover {
     font-size: 17.5px;
 }
 
-.first::after {
-    content: '1';
-    position: absolute;
-    margin-left: 15px;
-    padding: 8px 15px;
-    border-radius: 50px;
-    border: 2.5px solid #FED434;
+.list {
+    margin: auto;
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 60%;
 }
 
-.second::before {
-    content: '2';
-    position: absolute;
-    right: 100%;
-    padding: 8px 15px;
-    border-radius: 50px;
-    border: 2.5px solid #FED434;
+.item {
+    position: relative;
+    padding-right: 28px;
+    width: 50%;
+    text-align: right;
 }
 
-.third::after {
-    content: '3';
+.id {
     position: absolute;
-    margin-left: 15px;
-    padding: 8px 15px;
-    border-radius: 50px;
-    border: 2.5px solid #FED434;
+    top: 5px;
+    right: -25px;
+    display: block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #FED434;
+    font-size: 22px;
+}
+
+.item:before {
+    content: '';
+    position: absolute;
+    top: 45px;
+    right: -6px;
+    width: 2px;
+    bottom: -5px;
+    background-color: black;
+}
+
+.item-last:before {
+    background-color: transparent;
+}
+
+.item:nth-child(even) {
+    align-self: flex-end;
+    padding-left: 40px;
+    padding-right: 0;
+    text-align: left;
+}
+
+.item:nth-child(even)>.id {
+    right: auto;
+    left: -15px;
+    vertical-align: middle;
+}
+
+.item:nth-child(even):before {
+    right: auto;
+    left: 4px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -510,6 +549,10 @@ nav:hover {
 
     .title-block {
         font-size: 32px;
+    }
+    
+    .list {
+        width: 100%;
     }
 }
 
@@ -621,5 +664,9 @@ nav:hover {
     
     .contact-form {
         padding: 35px !important;
+    }
+    
+    .item h4 {
+        font-size: 19.5px;
     }
 }
