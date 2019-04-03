@@ -585,7 +585,7 @@ nav:hover {
 
 @media screen and (max-height: 823px) and (max-width: 414px) {
     .position {
-        bottom: 40px;
+        bottom: 80px;
     }
 
     .background {
@@ -630,7 +630,7 @@ nav:hover {
     }
 
     .position {
-        bottom: 30px;
+        bottom: 40px;
     }
 
     .st-block-big h1 {
