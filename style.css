@@ -2,13 +2,13 @@
 /*@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500,700&subset=cyrillic');*/
 
 @font-face {
-    src: url(Noah-bold.otf);
+    src: url(Noah-bold.ttf);
     font-family: Noah;
     font-weight: 800;
 }
 
 @font-face {
-    src: url(Noah-regular.otf);
+    src: url(Noah-regular.ttf);
     font-family: Noah;
     font-weight: 400;
 }
