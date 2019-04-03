@@ -3,12 +3,14 @@
 
 @font-face {
     src: url(Noah-bold.otf);
-    font-family: Noah-bold;
+    font-family: Noah;
+    font-weight: 800;
 }
 
 @font-face {
     src: url(Noah-regular.otf);
     font-family: Noah;
+    font-weight: 400;
 }
 
 * {
@@ -18,7 +20,8 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: Noah-bold !important;
+    font-family: Noah !important;
+    font-weight: bold;
 }
 
 html, body {
