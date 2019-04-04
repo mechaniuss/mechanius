@@ -114,17 +114,16 @@ img {
 }
 
 .do-btn-3 {
-    background-color: #FED434;
+    border: 3px solid white;
     padding: 20px 60px;
-    color: black !important;
     transition: 400ms;
+    color: white;
 }
 
 .do-btn-3:hover {
     text-decoration: none;
-    -webkit-filter: brightness(0.75);
-    -o-filter: brightness(0.75);
-    filter: brightness(0.75);
+    background-color: white;
+    color: black;
 }
 
 input {
@@ -157,7 +156,8 @@ input:focus {
 }
 
 .bg-grad-4 {
-    background-image: linear-gradient(to bottom, #0a161c, #091419, #071216, #061013, #050d10);
+    /*background-image: linear-gradient(to bottom, #0a161c, #091419, #071216, #061013, #050d10);*/
+    background-image: linear-gradient(to bottom, #1d1d1d, #1a1a1a, #171717, #131313, #0f0f0f);
 }
 
 .bg-light {
@@ -169,12 +169,16 @@ input:focus {
 }
 
 .bg-do {
-    -webkit-background-size: 100%;
+    /*-webkit-background-size: 100%;
     background-size: 100%;
     background-image: url(bg-do.jpg);
     -webkit-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
+background: #FF512F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F09819, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #F09819, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .bg-grad-end {
@@ -370,12 +374,12 @@ nav:hover {
     position: absolute;
     font-family: Clear Sans;
     top: -22px;
-    left: 45%;
+    left: 46%;
     border-radius: 50%;
     text-align: center;
     background-color: #FED434;
-    width: 43.5px;
-    color: black;
+    width: 40px;
+    color: white;
     user-select: none;
 }
 
@@ -509,6 +513,8 @@ nav:hover {
     border-radius: 50%;
     border: 3px solid #FED434;
     font-size: 22px;
+    line-height: 26.5px;
+    padding: 4px;
 }
 
 .item:before {
