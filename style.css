@@ -1,7 +1,8 @@
 /*@import url('https://fonts.googleapis.com/css?family=Montserrat:500,700,800&subset=cyrillic');*/
 /*@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500,700&subset=cyrillic');*/
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,600');
 
-@font-face {
+/*@font-face {
     font-family: Noah;
     src: url('Noah-Regular.woff') format('woff');
     font-weight: 400;
@@ -11,17 +12,12 @@
     font-family: Noah;
     src: url('Noah-Bold.woff') format('woff');
     font-weight: 800;
-}
+}*/
 
 * {
     padding: 0;
     margin: 0;
-    font-family: Noah !important;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: Noah !important;
-    font-weight: bold !important;
+    font-family: Fira Sans !important;
 }
 
 html, body {
