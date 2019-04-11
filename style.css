@@ -205,7 +205,6 @@ input:focus {
     background: url(smarttap.jpg) no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
-    box-shadow: 0 2px 16px rgba(168, 175, 196, .4);
     padding: 2px;
 }
 
