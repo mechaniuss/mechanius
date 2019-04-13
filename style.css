@@ -83,7 +83,7 @@ w-80 {
 
 .phone-number {
     right: 0;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .phone-number span:last-child {
@@ -101,13 +101,13 @@ w-80 {
     color: white !important;
     border: 4px solid white;
     transition: 400ms;
-}*/
+}
 
 .do-btn-1:hover, .do-btn-2:hover {
     text-decoration: none;
 }
 
-/*.do-btn-1:hover {
+.do-btn-1:hover {
     -webkit-filter: brightness(0.75);
     -o-filter: brightness(0.75);
     filter: brightness(0.75);
@@ -124,15 +124,18 @@ w-80 {
 
 .do-btn-3 {
     border: 3px solid #FED434;
+    background-color: #FED434;
     padding: 20px 60px;
     transition: 400ms;
-    color: white;
+    color: black;
 }
 
 .do-btn-3:hover {
     text-decoration: none;
-    background-color: white;
     color: black;
+    -webkit-filter: brightness(0.85);
+    -o-filter: brightness(0.85);
+    filter: brightness(0.85);
 }
 
 input {
@@ -146,6 +149,12 @@ input {
 input:focus {
     outline: none;
     border-bottom: 2.5px solid #FED434 !important;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
 }
 
 .navbar-toggler {
