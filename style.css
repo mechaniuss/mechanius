@@ -1,15 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css?family=Montserrat:500,700,800&subset=cyrillic');*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500,700&subset=cyrillic');
-
-/*@font-face {
-    font-family: San-Francisco;
-    src: url('SF-Regular.ttf') format('ttf');
-}
-
-@font-face{
-    font-family: San-Francisco;
-    src: url('SF-Compact-Text-Semibold.otf') format('otf');
-}*/
 
 * {
     padding: 0;
@@ -106,34 +95,6 @@ w-80 {
     color: #FED434;
 }
 
-/*.do-btn-1 {
-    color: black !important;
-    background-color: #FED434;
-    border: 4px solid #FED434;
-    transition: 400ms;
-}
-
-.do-btn-2 {
-    color: white !important;
-    border: 4px solid white;
-    transition: 400ms;
-}
-
-.do-btn-1:hover, .do-btn-2:hover {
-    text-decoration: none;
-}
-
-.do-btn-1:hover {
-    -webkit-filter: brightness(0.75);
-    -o-filter: brightness(0.75);
-    filter: brightness(0.75);
-}
-
-.do-btn-2:hover {
-    background-color: white;
-    color: black !important;
-}*/
-
 .do-comment {
     margin-bottom: 65px;
 }
@@ -188,11 +149,6 @@ input[type=number]::-webkit-outer-spin-button {
 
 .opacity-text-2 {
     color: rgba(255,255,255,0.45);
-}
-
-.bg-grad-4 {
-    /*background-image: linear-gradient(to bottom, #0a161c, #091419, #071216, #061013, #050d10);*/
-    background-image: linear-gradient(to bottom, #1d1d1d, #1a1a1a, #171717, #131313, #0f0f0f);
 }
 
 .bg-light {
@@ -357,15 +313,6 @@ input[type=number]::-webkit-outer-spin-button {
     color: black;
 }
 
-.nav-link {
-    font-family: Clear Sans;
-    transition: all 400ms;
-}
-
-.nav-link:hover {
-    color: black;
-}
-
 .second-section .block-bg {
     min-height: 50vh;
 }
@@ -413,17 +360,6 @@ nav * {
     color: #FED434 !important;
 }
 
-/*.st-block-big {
-    border-radius: 5px;
-    background-color: rgba(0,0,0,0.04);
-    border: 2px solid rgba(0,0,0,0.07);
-    box-shadow: 0px 0px 16px rgba(168, 175, 196, .5);
-}*/
-
-/*.st-work {
-    font: 16px Clear Sans;
-}*/
-
 .st-block {
     background-color: white;
     box-shadow: 0px 0px 8px 0.5px rgba(168, 175, 196, .5);
@@ -431,7 +367,6 @@ nav * {
 
 .st-block h2 {
     position: absolute;
-    font-family: Clear Sans;
     top: -22px;
     left: 46%;
     border-radius: 50%;
@@ -474,8 +409,8 @@ nav * {
 }
 
 .img-custom-2 {
-    width: 90px;
-    height: 90px;
+    width: 75px;
+    height: 75px;
 }
 
 .img-custom-3 {
@@ -669,6 +604,10 @@ nav * {
     .w-special {
         width: 100% !important;
     }
+    
+    .item p, .do-btn-3 {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-height: 823px) and (max-width: 414px) {
@@ -725,10 +664,6 @@ nav * {
         font-size: 45px !important;
     }
     
-    /*.do-btn-1, .do-btn-2 {
-        font-size: 12px;
-    }*/
-    
     #contacts h1 {
         font-size: 24px !important;
     }
@@ -743,9 +678,5 @@ nav * {
     
     .item h4 {
         font-size: 17px;
-    }
-    
-    .item p, .do-btn-3 {
-        font-size: 15px;
     }
 }
