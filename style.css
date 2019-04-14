@@ -17,8 +17,20 @@
     font-family: Open Sans !important;
 }
 
-p, a {
+small {
     font-size: 15px;
+}
+
+p {
+    font-size: 18px;
+}
+
+a {
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 45px;
 }
 
 html, body {
@@ -71,6 +83,10 @@ w-80 {
 
 .pt-6 {
     padding-top: 80px;
+}
+
+.mt-6 {
+    margin-top: 70px;
 }
 
 .us-none {
@@ -128,6 +144,7 @@ w-80 {
     padding: 20px 60px;
     transition: 400ms;
     color: black;
+    font-size: 16px;
 }
 
 .do-btn-3:hover {
@@ -141,7 +158,7 @@ w-80 {
 input {
     border: none;
     border-bottom: 2.5px solid rgba(0,0,0,0.1);
-    font-size: 15px;
+    font-size: 16px;
     padding: 0px 6px !important;
     transition: 400ms;
 }
@@ -230,18 +247,18 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .first-section div h1 {
-    font: 92px Montserrat;
+    font-size: 92px;
     font-weight: 800;
     color: white;
 }
 
 .first-section div p {
-    font: 19.5px Clear Sans;
+    font-size: 22px;
     color: white;
 }
 
 .small-fsize {
-    font-size: 13.5px;
+    font-size: 15px;
 }
 
 .position {
@@ -354,7 +371,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .second-section h1 {
-    font: 70px Montserrat;
+    font-size: 70px;
 }
 
 .navbar-light {
@@ -431,6 +448,7 @@ nav * {
 
 .button-submit {
     border: 4px solid #FED434;
+    font-size: 16px;
     color: black;
     padding: 12px;
     transition: 400ms;
@@ -476,7 +494,7 @@ nav * {
 }
 
 .img-custom-6 {
-    width: 370px;
+    width: 380px;
 }
 
 .img-custom-7 {
