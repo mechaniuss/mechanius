@@ -45,19 +45,19 @@ button {
 }
 
 small, .small {
-    font-size: 15px;
+    font-size: 16.5px;
 }
 
 p {
-    font-size: 17.5px;
+    font-size: 19px;
 }
 
 a {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 50px;
 }
 
 .hw-box div:not(.next-arrow) {
@@ -128,7 +128,7 @@ w-80 {
 
 .phone-number {
     right: 0;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .phone-number span:last-child {
@@ -247,7 +247,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .small-fsize {
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .position {
@@ -415,7 +415,7 @@ nav * {
 }*/
 
 .st-work {
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .number-work {
