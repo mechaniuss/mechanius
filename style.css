@@ -236,13 +236,12 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .first-section div h1 {
-    font-size: 92px;
-    font-weight: 800;
+    font-size: 105px;
     color: white;
 }
 
 .first-section div p {
-    font-size: 22px;
+    font-size: 24px;
     color: white;
 }
 
@@ -327,29 +326,6 @@ input[type=number]::-webkit-outer-spin-button {
   }
 }
 
-.first-section, .second-section {
-    position: relative;
-}
-
-.first-section div p a, .second-section .arrow a {
-    border: 2px solid white;
-    padding: 0 10px 0 10px;
-    border-radius: 25px;
-    color: white;
-    text-decoration: none;
-    font-size: 24px;
-    transition: 400ms;
-}
-
-.first-section div p a:hover, .second-section .arrow a:hover {
-    background-color: white;
-    color: black;
-}
-
-.second-section .block-bg {
-    min-height: 50vh;
-}
-
 .second-section h1 {
     font-size: 70px;
 }
@@ -413,6 +389,14 @@ nav * {
     padding: 4px;
     font-weight: bold;
 }*/
+
+.smarttap-text {
+    font-size: 19.3px;
+}
+
+.smarttap-rounded {
+    border-radius: 10px;
+}
 
 .st-work {
     font-size: 17px;
@@ -578,36 +562,20 @@ nav * {
 }
 
 @media screen and (max-width: 767px) {
-    .first-section div h1 {
-        font-size: 72px;
-    }
-
-    .second-section p {
-        font-size: 16px;
-    }
-
-    .second-section .arrow {
-        bottom: 0;
+    .first-section p {
+        font-size: 22px !important;
     }
 
     .error-title {
         font-size: 160px;
     }
-
-    .st-block {
-        margin: 0;
-    }
-    
-    .do-btn-1, .do-btn-2 {
-        font-size: 15px;
-    }
-    
-    #contacts h1 {
-        font-size: 28.5px !important;
-    }
     
     .contact-form {
         width: 100% !important;
+    }
+    
+    #contacts h1 {
+        font-size: 34px;
     }
     
     .w-special {
@@ -632,10 +600,6 @@ nav * {
     .py-7 {
         padding: 80px 0;
     }
-
-    .question {
-        font-size: 19px !important;
-    }
     
     .item h4 {
         font-size: 19.5px;
@@ -644,7 +608,7 @@ nav * {
 
 @media screen and (max-width: 450px) {
     .first-section div h1 {
-        font-size: 50px;
+        font-size: 55px;
     }
 
     .second-section h1 {
