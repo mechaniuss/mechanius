@@ -44,8 +44,12 @@ button {
     background: transparent !important;
 }
 
-small, .small {
-    font-size: 16.5px;
+small {
+    font-size: 17px;
+}
+
+.small {
+    font-size: 19px;
 }
 
 p {
@@ -53,7 +57,7 @@ p {
 }
 
 a {
-    font-size: 16px;
+    font-size: 17px;
 }
 
 h1 {
@@ -145,7 +149,7 @@ w-80 {
     padding: 20px 60px;
     transition: 400ms;
     color: black;
-    font-size: 16px;
+    font-size: 19px;
 }
 
 .do-btn-3:hover {
@@ -250,12 +254,10 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .position {
-    bottom: 50px;
-    height: 70px;
-    left: 50%;
     position: absolute;
-    width: 50px;
-    margin-left: -25px;
+    height: 70px;
+    left: 47.5%;
+    bottom: 50px;
 }
 
 .arrow {
@@ -589,11 +591,11 @@ nav * {
 
 @media screen and (max-height: 823px) and (max-width: 414px) {
     .position {
-        bottom: 80px;
+        bottom: 90px;
     }
 
     .background, .bg-do, .bg-contacts {
-        background-attachment: scroll;
+        background-attachment: scroll !important;
         background-position: center;
     }
 
@@ -630,7 +632,7 @@ nav * {
     }
 
     .position {
-        bottom: 40px;
+        bottom: 50px;
     }
 
     .st-block-big h1 {
