@@ -44,12 +44,8 @@ button {
     background: transparent !important;
 }
 
-small {
+small, .small {
     font-size: 17px;
-}
-
-.small {
-    font-size: 19px;
 }
 
 p {
