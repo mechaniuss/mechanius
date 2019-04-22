@@ -17,7 +17,7 @@ html, body {
 }
 
 .img-custom-2 {
-    width: 590px;
+    width: 600px;
     height: 640px;
 }
 
@@ -209,7 +209,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .bg-special {
-    background-image: linear-gradient(to left top, #d0d0d0, #dcdcdc, #e7e7e7, #f3f3f3, #ffffff);
+    background-image: linear-gradient(to right, #cccccc, #d9d9d9, #e5e5e5, #f2f2f2, #ffffff);
 }
 
 .bg-do {
