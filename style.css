@@ -1,5 +1,5 @@
 /*@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500,700&subset=cyrillic');*/
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600&subset=cyrillic');
 
 * {
     padding: 0;
@@ -191,16 +191,20 @@ input[type=number]::-webkit-outer-spin-button {
     color: rgba(255,255,255,0.45);
 }
 
+.bg-dark {
+    background-color: #202428 !important;
+}
+
 .bg-light {
     background-color: white !important;
 }
 
 .bg-gray {
-    background-color: #f4f4f4;
+    background-color: #f7f7f7;
 }
 
-.bg-black {
-    background-color: black;
+.bg-special {
+    background-image: linear-gradient(to left top, #d0d0d0, #dcdcdc, #e7e7e7, #f3f3f3, #ffffff);
 }
 
 .bg-do {
@@ -254,6 +258,7 @@ input[type=number]::-webkit-outer-spin-button {
     height: 70px;
     left: 47.5%;
     bottom: 50px;
+    width: 50px;
 }
 
 .arrow {
@@ -325,7 +330,11 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .second-section h1 {
-    font-size: 70px;
+    font-size: 115px;
+}
+
+.second-section p {
+    line-height: 1.71em;
 }
 
 .navbar-light {
@@ -393,7 +402,7 @@ nav * {
 }
 
 .smarttap-rounded {
-    border-radius: 10px;
+    border-radius: 100%;
 }
 
 .st-work {
