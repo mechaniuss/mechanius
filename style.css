@@ -18,7 +18,7 @@ html, body {
 
 .img-custom-2 {
     width: 590px;
-    height: 649px;
+    height: 640px;
 }
 
 .img-custom-3 {
@@ -404,10 +404,6 @@ nav * {
 
 .smarttap-text {
     font-size: 19.3px;
-}
-
-.smarttap-rounded {
-    border-radius: 100%;
 }
 
 .st-work {
