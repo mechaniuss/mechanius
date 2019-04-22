@@ -209,7 +209,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .bg-special {
-    background-image: linear-gradient(to right, #cccccc, #d9d9d9, #e5e5e5, #f2f2f2, #ffffff);
+    background: linear-gradient(to right, rgba(204,204,204,1) 0%, rgba(204,204,204,1) 7%, rgba(204,204,204,1) 31%, rgba(217,217,217,1) 44%, rgba(229,229,229,1) 60%, rgba(242,242,242,1) 74%, rgba(255,255,255,1) 100%);
 }
 
 .bg-do {
